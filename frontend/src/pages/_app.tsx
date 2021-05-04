@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
       <Head>
         <title>DSVendas</title>
         <meta name="description" content="Este app foi desnvolvido na Semana Spring React" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </>
