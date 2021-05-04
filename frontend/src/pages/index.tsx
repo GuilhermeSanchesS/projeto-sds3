@@ -1,15 +1,16 @@
-import Head from 'next/head';
-import 'bootstrap/dist/css/bootstrap.css';
+import NavBar from 'components/NavBar';
+import Footer from 'components/Footer';
+import DataTable from 'components/DataTable';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>DSVendas</title>
-        <meta name="description" content="Este app foi desnvolvido na Semana Spring React" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h1 className="text-primary">DSVendas</h1>
+      <NavBar />
+      <div className="container">
+        <h1 className="text-primary">DSVendas</h1>
+        <DataTable />
+      </div>
+      <Footer />
     </>
   )
 }
